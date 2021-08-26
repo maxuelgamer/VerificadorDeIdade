@@ -1,0 +1,89 @@
+html {
+    background: rgb(37, 37, 37);
+    min-height: 100%;
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(font/BebasNeue-Regular.ttf);
+  }
+
+body {
+    font: normal 15pt bebas;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+}
+
+#foto {
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+section {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+a {
+    position: relative;
+    top: 10px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    background: rgb(0, 202, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 50%, rgba(0,0,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

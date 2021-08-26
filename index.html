@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html id="html" lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel = "icon" href = "https://icons.iconarchive.com/icons/flat-icons.com/flat/512/Clock-icon.png" type = "image/x-icon">
+
+<link rel="stylesheet" href="style.css"></head>
+<body onload="carregar()">
+    <script src="script.js"></script>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="txtano" id="txtano" min="1910">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <button class="myButton" onclick="verificar()">Verificar</button>
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <a target="_blank" href="https://github.com/maxuelgamer/">&copy; Maxuel</a>
+    </footer>
+</body>
+</html>
